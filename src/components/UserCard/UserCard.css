@@ -1,0 +1,14 @@
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.phone {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #2d7a2d;
+  font-weight: bold;
+}

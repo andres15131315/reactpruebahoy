@@ -1,0 +1,35 @@
+/* src/components/sidebar/sidebar.css */
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  color: white;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.sidebar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar li.active a {
+  font-weight: bold;
+  color: #1abc9c;
+}
